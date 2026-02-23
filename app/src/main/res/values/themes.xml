@@ -2,7 +2,6 @@
 <resources>
     <!-- Base application theme (Light) -->
     <style name="Theme.SolVeltLogic" parent="Theme.Material3.Light.NoActionBar">
-        <item name="colorSurfaceTint">@color/purple_500</item>
         <!-- Primary Colors -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorOnPrimary">@color/on_primary</item>
