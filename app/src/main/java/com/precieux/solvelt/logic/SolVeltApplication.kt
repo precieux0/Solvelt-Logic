@@ -24,7 +24,7 @@ class SolVeltApplication : Application() {
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
         
         // Initialize database with default data
-        initializeDatabase()
+//         initializeDatabase()
     }
     
     private fun initializeDatabase() {
