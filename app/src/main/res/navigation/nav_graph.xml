@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.precieux.solvelt.logic.ui.fragments.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_to_problemSolver"
+            app:destination="@id/problemSolverActivity" />
+        <action
+            android:id="@+id/action_home_to_courseDetail"
+            app:destination="@id/courseDetailActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/coursesFragment"
+        android:name="com.precieux.solvelt.logic.ui.fragments.CoursesFragment"
+        android:label="@string/nav_courses"
+        tools:layout="@layout/fragment_courses" >
+        <action
+            android:id="@+id/action_courses_to_courseDetail"
+            app:destination="@id/courseDetailActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.precieux.solvelt.logic.ui.fragments.FavoritesFragment"
+        android:label="@string/nav_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_favorites_to_problemSolver"
+            app:destination="@id/problemSolverActivity" />
+        <action
+            android:id="@+id/action_favorites_to_courseDetail"
+            app:destination="@id/courseDetailActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.precieux.solvelt.logic.ui.fragments.ProfileFragment"
+        android:label="@string/nav_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profile_to_settings"
+            app:destination="@id/settingsActivity" />
+    </fragment>
+
+    <activity
+        android:id="@id/problemSolverActivity"
+        android:name="com.precieux.solvelt.logic.ui.activities.ProblemSolverActivity"
+        android:label="@string/problem_solver_title"
+        tools:layout="@layout/activity_problem_solver" />
+
+    <activity
+        android:id="@id/courseDetailActivity"
+        android:name="com.precieux.solvelt.logic.ui.activities.CourseDetailActivity"
+        android:label="@string/courses_title"
+        tools:layout="@layout/activity_course_detail" />
+
+    <activity
+        android:id="@id/settingsActivity"
+        android:name="com.precieux.solvelt.logic.ui.activities.SettingsActivity"
+        android:label="@string/settings_title"
+        tools:layout="@layout/activity_settings" />
+
+    <activity
+        android:id="@id/quizActivity"
+        android:name="com.precieux.solvelt.logic.ui.activities.QuizActivity"
+        android:label="@string/quiz"
+        tools:layout="@layout/activity_quiz" />
+
+</navigation>

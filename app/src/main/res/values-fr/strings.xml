@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">SolVelt-Logic</string>
+    <string name="app_tagline">Votre Résolveur de Problèmes Scientifiques</string>
+    <string name="app_version">Version %1$s</string>
+    <string name="developer_name">Précieux Okitakoy</string>
+    <string name="developer_email">okitakoyprecieux@gmail.com</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_courses">Cours</string>
+    <string name="nav_favorites">Favoris</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_settings">Paramètres</string>
+    <string name="nav_about">À propos</string>
+    <string name="nav_faq">FAQ</string>
+    
+    <!-- Auth -->
+    <string name="sign_in">Connexion</string>
+    <string name="sign_out">Déconnexion</string>
+    <string name="sign_in_with_google">Se connecter avec Google</string>
+    <string name="continue_as_guest">Continuer en invité</string>
+    <string name="guest_mode">Mode Invité</string>
+    <string name="guest_mode_description">Accès limité. Connectez-vous pour débloquer toutes les fonctionnalités.</string>
+    <string name="welcome_back">Bon retour !</string>
+    <string name="auth_subtitle">Connectez-vous pour accéder à votre expérience d\'apprentissage personnalisée</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Résolvez Tout Problème</string>
+    <string name="onboarding_desc_1">Des mathématiques à la physique, de la chimie au dessin technique - obtenez des solutions étape par étape instantanément</string>
+    <string name="onboarding_title_2">Apprenez avec les Micro-Cours</string>
+    <string name="onboarding_desc_2">Leçons courtes et interactives avec quiz et exemples pratiques</string>
+    <string name="onboarding_title_3">Étudiez Partout</string>
+    <string name="onboarding_desc_3">Accédez au contenu hors ligne et synchronisez quand vous êtes en ligne</string>
+    <string name="get_started">Commencer</string>
+    <string name="next">Suivant</string>
+    <string name="skip">Passer</string>
+    
+    <!-- Categories -->
+    <string name="category_mathematics">Mathématiques</string>
+    <string name="category_physics">Physique</string>
+    <string name="category_chemistry">Chimie</string>
+    <string name="category_technical_drawing">Dessin Technique</string>
+    <string name="category_science">Autres Sciences</string>
+    
+    <!-- Subcategories Math -->
+    <string name="math_algebra">Algèbre</string>
+    <string name="math_geometry">Géométrie</string>
+    <string name="math_calculus">Calcul</string>
+    <string name="math_trigonometry">Trigonométrie</string>
+    <string name="math_statistics">Statistiques</string>
+    
+    <!-- Subcategories Physics -->
+    <string name="physics_mechanics">Mécanique</string>
+    <string name="physics_electricity">Électricité</string>
+    <string name="physics_thermodynamics">Thermodynamique</string>
+    <string name="physics_optics">Optique</string>
+    <string name="physics_waves">Ondes</string>
+    
+    <!-- Subcategories Chemistry -->
+    <string name="chemistry_organic">Chimie Organique</string>
+    <string name="chemistry_inorganic">Chimie Inorganique</string>
+    <string name="chemistry_equations">Équations Chimiques</string>
+    <string name="chemistry_stoichiometry">Stœchiométrie</string>
+    <string name="chemistry_periodic">Tableau Périodique</string>
+    
+    <!-- Problem Solver -->
+    <string name="problem_solver_title">Résolveur de Problèmes</string>
+    <string name="enter_problem">Entrez votre problème</string>
+    <string name="solve">Résoudre</string>
+    <string name="solution">Solution</string>
+    <string name="step_by_step">Étape par Étape</string>
+    <string name="final_answer">Réponse Finale</string>
+    <string name="related_concepts">Concepts Liés</string>
+    <string name="save_to_favorites">Ajouter aux Favoris</string>
+    <string name="share_solution">Partager la Solution</string>
+    <string name="copy_solution">Copier la Solution</string>
+    <string name="history">Historique</string>
+    <string name="clear_history">Effacer l\'Historique</string>
+    
+    <!-- Courses -->
+    <string name="courses_title">Cours</string>
+    <string name="micro_courses">Micro-Cours</string>
+    <string name="course_duration">%1$d min</string>
+    <string name="course_lessons">%1$d leçons</string>
+    <string name="start_course">Commencer le Cours</string>
+    <string name="continue_course">Continuer</string>
+    <string name="completed">Terminé</string>
+    <string name="quiz">Quiz</string>
+    <string name="take_quiz">Faire le Quiz</string>
+    <string name="quiz_score">Score : %1$d/%2$d</string>
+    <string name="correct_answer">Correct !</string>
+    <string name="wrong_answer">Incorrect. La bonne réponse est : %1$s</string>
+    
+    <!-- Favorites -->
+    <string name="favorites_title">Favoris</string>
+    <string name="no_favorites">Aucun favori pour l\'instant</string>
+    <string name="no_favorites_desc">Enregistrez vos problèmes et cours favoris ici pour un accès rapide</string>
+    <string name="remove_from_favorites">Retirer des Favoris</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">Profil</string>
+    <string name="edit_profile">Modifier le Profil</string>
+    <string name="statistics">Statistiques</string>
+    <string name="problems_solved">Problèmes Résolus</string>
+    <string name="courses_completed">Cours Terminés</string>
+    <string name="study_time">Temps d\'Étude</string>
+    <string name="achievements">Succès</string>
+    <string name="account_settings">Paramètres du Compte</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="appearance">Apparence</string>
+    <string name="theme">Thème</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_system">Par Défaut du Système</string>
+    <string name="language">Langue</string>
+    <string name="language_english">Anglais</string>
+    <string name="language_french">Français</string>
+    <string name="notifications">Notifications</string>
+    <string name="daily_reminder">Rappel Quotidien d\'Étude</string>
+    <string name="new_content">Alertes Nouveau Contenu</string>
+    <string name="offline_mode">Mode Hors Ligne</string>
+    <string name="download_content">Télécharger le Contenu pour Hors Ligne</string>
+    <string name="clear_cache">Vider le Cache</string>
+    <string name="cache_cleared">Cache vidé avec succès</string>
+    <string name="data_usage">Utilisation des Données</string>
+    <string name="privacy_policy">Politique de Confidentialité</string>
+    <string name="terms_of_service">Conditions d\'Utilisation</string>
+    
+    <!-- About -->
+    <string name="about_title">À propos</string>
+    <string name="about_description">SolVelt-Logic est votre compagnon complet de résolution de problèmes scientifiques. Conçu pour les étudiants, les enseignants et les apprenants tout au long de la vie.</string>
+    <string name="developer_info">Informations sur le Développeur</string>
+    <string name="contact_us">Contactez-nous</string>
+    <string name="rate_app">Évaluer l\'App</string>
+    <string name="share_app">Partager l\'App</string>
+    <string name="open_source_licenses">Licences Open Source</string>
+    
+    <!-- FAQ -->
+    <string name="faq_title">FAQ</string>
+    <string name="faq_q1">Comment fonctionne le résolveur de problèmes ?</string>
+    <string name="faq_a1">Entrez votre problème avec le clavier ou la saisie vocale. Nos algorithmes avancés analyseront et fourniront des solutions étape par étape avec explications.</string>
+    <string name="faq_q2">Puis-je utiliser l\'application hors ligne ?</string>
+    <string name="faq_a2">Oui ! La résolution de problèmes de base et les cours téléchargés fonctionnent hors ligne. Synchronisez en ligne pour accéder à la bibliothèque complète.</string>
+    <string name="faq_q3">Mes données sont-elles sécurisées ?</string>
+    <string name="faq_a3">Absolument. Nous utilisons un chiffrement standard de l\'industrie et ne partageons jamais vos données personnelles avec des tiers.</string>
+    <string name="faq_q4">Comment signaler une erreur ?</string>
+    <string name="faq_a4">Allez dans Paramètres > Contactez-nous et décrivez le problème. Nous vous répondrons dans les 24 heures.</string>
+    
+    <!-- Errors -->
+    <string name="error_network">Erreur réseau. Veuillez vérifier votre connexion.</string>
+    <string name="error_generic">Une erreur s\'est produite. Veuillez réessayer.</string>
+    <string name="error_auth">Échec de l\'authentification. Veuillez réessayer.</string>
+    <string name="error_invalid_input">Entrée invalide. Veuillez vérifier votre problème.</string>
+    <string name="error_no_solution">Impossible de résoudre ce problème. Essayez de le reformuler.</string>
+    <string name="retry">Réessayer</string>
+    <string name="cancel">Annuler</string>
+    <string name="ok">OK</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="delete">Supprimer</string>
+    <string name="save">Enregistrer</string>
+    
+    <!-- Search -->
+    <string name="search">Rechercher</string>
+    <string name="search_hint">Rechercher problèmes, cours…</string>
+    <string name="search_results">Résultats de Recherche</string>
+    <string name="no_results">Aucun résultat trouvé</string>
+    
+    <!-- Time -->
+    <string name="just_now">À l\'instant</string>
+    <string name="minutes_ago">Il y a %1$d min</string>
+    <string name="hours_ago">Il y a %1$d heures</string>
+    <string name="days_ago">Il y a %1$d jours</string>
+    
+    <!-- Accessibility -->
+    <string name="cd_back">Retour</string>
+    <string name="cd_close">Fermer</string>
+    <string name="cd_menu">Ouvrir le menu</string>
+    <string name="cd_user_avatar">Avatar utilisateur</string>
+    <string name="cd_category_icon">Icône de catégorie</string>
+    <string name="cd_favorite">Ajouter aux favoris</string>
+    <string name="cd_share">Partager</string>
+    <string name="cd_copy">Copier</string>
+</resources>

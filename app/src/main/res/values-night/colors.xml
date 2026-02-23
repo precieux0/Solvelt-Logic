@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#D0BCFF</color>
+    <color name="on_primary">#381E72</color>
+    <color name="primary_container">#4F378B</color>
+    <color name="on_primary_container">#EADDFF</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#CCC2DC</color>
+    <color name="on_secondary">#332D41</color>
+    <color name="secondary_container">#4A4458</color>
+    <color name="on_secondary_container">#E8DEF8</color>
+    
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#EFB8C8</color>
+    <color name="on_tertiary">#492532</color>
+    <color name="tertiary_container">#633B48</color>
+    <color name="on_tertiary_container">#FFD8E4</color>
+    
+    <!-- Error Colors -->
+    <color name="error">#F2B8B5</color>
+    <color name="on_error">#601410</color>
+    <color name="error_container">#8C1D18</color>
+    <color name="on_error_container">#F9DEDC</color>
+    
+    <!-- Surface Colors (Dark) -->
+    <color name="surface">#141218</color>
+    <color name="on_surface">#E6E0E9</color>
+    <color name="surface_variant">#49454F</color>
+    <color name="on_surface_variant">#CAC4D0</color>
+    <color name="surface_tint">#D0BCFF</color>
+    <color name="inverse_surface">#E6E0E9</color>
+    <color name="inverse_on_surface">#322F35</color>
+    
+    <!-- Background -->
+    <color name="background">#141218</color>
+    <color name="on_background">#E6E0E9</color>
+    
+    <!-- Outline -->
+    <color name="outline">#938F99</color>
+    <color name="outline_variant">#49454F</color>
+    
+    <!-- Surface Container Colors -->
+    <color name="surface_container_highest">#36343B</color>
+    <color name="surface_container_high">#2B2930</color>
+    <color name="surface_container">#211F26</color>
+    <color name="surface_container_low">#1D1B20</color>
+    <color name="surface_container_lowest">#0F0D13</color>
+    
+    <!-- Inverse Primary -->
+    <color name="inverse_primary">#6750A4</color>
+    
+    <!-- Scrim -->
+    <color name="scrim">#000000</color>
+    <color name="scrim_alpha">#D9000000</color>
+    
+    <!-- Shadow -->
+    <color name="shadow">#000000</color>
+    
+    <!-- Category Colors (Dark) -->
+    <color name="category_math">#81C784</color>
+    <color name="category_math_container">#1B5E20</color>
+    <color name="category_physics">#64B5F6</color>
+    <color name="category_physics_container">#0D47A1</color>
+    <color name="category_chemistry">#FFB74D</color>
+    <color name="category_chemistry_container">#E65100</color>
+    <color name="category_drawing">#CE93D8</color>
+    <color name="category_drawing_container">#4A148C</color>
+    <color name="category_science">#4DD0E1</color>
+    <color name="category_science_container">#006064</color>
+    
+    <!-- Status Colors (Dark) -->
+    <color name="success">#A5D6A7</color>
+    <color name="success_container">#1B5E20</color>
+    <color name="warning">#FFCC80</color>
+    <color name="warning_container">#E65100</color>
+    <color name="info">#90CAF9</color>
+    <color name="info_container">#0D47A1</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#D0BCFF</color>
+    <color name="gradient_end">#E1BEE7</color>
+    
+    <!-- Splash Screen -->
+    <color name="splash_background">#141218</color>
+    <color name="splash_icon">#D0BCFF</color>
+    
+    <!-- Divider -->
+    <color name="divider">#1FFFFFFF</color>
+    
+    <!-- Ripple -->
+    <color name="ripple">#33FFFFFF</color>
+    
+    <!-- Selection -->
+    <color name="selection">#33D0BCFF</color>
+</resources>
