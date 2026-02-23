@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fragment IDs pour la navigation -->
+    <item name="problemSolverFragment" type="id"/>
+    <item name="courseDetailFragment" type="id"/>
+    <item name="settingsFragment" type="id"/>
+    <item name="quizFragment" type="id"/>
+</resources>
