@@ -12,10 +12,10 @@
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_home_to_problemSolver"
-            app:destination="@id/problemSolverActivity" />
+            app:destination="@id/problemSolverFragment" />
         <action
             android:id="@+id/action_home_to_courseDetail"
-            app:destination="@id/courseDetailActivity" />
+            app:destination="@id/courseDetailFragment" />
     </fragment>
 
     <fragment
@@ -25,7 +25,7 @@
         tools:layout="@layout/fragment_courses" >
         <action
             android:id="@+id/action_courses_to_courseDetail"
-            app:destination="@id/courseDetailActivity" />
+            app:destination="@id/courseDetailFragment" />
     </fragment>
 
     <fragment
@@ -35,10 +35,10 @@
         tools:layout="@layout/fragment_favorites" >
         <action
             android:id="@+id/action_favorites_to_problemSolver"
-            app:destination="@id/problemSolverActivity" />
+            app:destination="@id/problemSolverFragment" />
         <action
             android:id="@+id/action_favorites_to_courseDetail"
-            app:destination="@id/courseDetailActivity" />
+            app:destination="@id/courseDetailFragment" />
     </fragment>
 
     <fragment
@@ -48,31 +48,31 @@
         tools:layout="@layout/fragment_profile" >
         <action
             android:id="@+id/action_profile_to_settings"
-            app:destination="@id/settingsActivity" />
+            app:destination="@id/settingsFragment" />
     </fragment>
 
-    <activity
-        android:id="@id/problemSolverActivity"
-        android:name="com.precieux.solvelt.logic.ui.activities.ProblemSolverActivity"
+    <fragment
+        android:id="@id/problemSolverFragment"
+        android:name="com.precieux.solvelt.logic.ui.activities.ProblemSolverFragment"
         android:label="@string/problem_solver_title"
-        tools:layout="@layout/activity_problem_solver" />
+        tools:layout="@layout/fragment_problem_solver" />
 
-    <activity
-        android:id="@id/courseDetailActivity"
-        android:name="com.precieux.solvelt.logic.ui.activities.CourseDetailActivity"
+    <fragment
+        android:id="@id/courseDetailFragment"
+        android:name="com.precieux.solvelt.logic.ui.activities.CourseDetailFragment"
         android:label="@string/courses_title"
-        tools:layout="@layout/activity_course_detail" />
+        tools:layout="@layout/fragment_course_detail" />
 
-    <activity
-        android:id="@id/settingsActivity"
-        android:name="com.precieux.solvelt.logic.ui.activities.SettingsActivity"
+    <fragment
+        android:id="@id/settingsFragment"
+        android:name="com.precieux.solvelt.logic.ui.activities.SettingsFragment"
         android:label="@string/settings_title"
-        tools:layout="@layout/activity_settings" />
+        tools:layout="@layout/fragment_settings" />
 
-    <activity
-        android:id="@id/quizActivity"
-        android:name="com.precieux.solvelt.logic.ui.activities.QuizActivity"
+    <fragment
+        android:id="@id/quizFragment"
+        android:name="com.precieux.solvelt.logic.ui.activities.QuizFragment"
         android:label="@string/quiz"
-        tools:layout="@layout/activity_quiz" />
+        tools:layout="@layout/fragment_quiz" />
 
 </navigation>
