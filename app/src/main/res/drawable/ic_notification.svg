@@ -1,8 +1,0 @@
-<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
-    <!-- Fond de notification -->
-    <circle cx="24" cy="24" r="20" fill="#2196F3"/>
-    
-    <!-- Symbole de calcul -->
-    <text x="12" y="32" font-family="Arial" font-size="22" fill="white" font-weight="bold">∑</text>
-    <text x="26" y="28" font-family="Arial" font-size="14" fill="white">∫</text>
-</svg>
