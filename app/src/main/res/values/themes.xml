@@ -2,6 +2,7 @@
 <resources>
     <!-- Base application theme (Light) -->
     <style name="Theme.SolVeltLogic" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorSurfaceTint">@color/purple_500</item>
         <!-- Primary Colors -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorOnPrimary">@color/on_primary</item>
@@ -31,7 +32,6 @@
         <item name="colorOnSurface">@color/on_surface</item>
         <item name="colorSurfaceVariant">@color/surface_variant</item>
         <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
-        <item name="colorSurfaceTint">@color/surface_tint</item>
         <item name="colorSurfaceInverse">@color/inverse_surface</item>
         <item name="colorOnSurfaceInverse">@color/inverse_on_surface</item>
         
@@ -88,7 +88,6 @@
         <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.SolVeltLogic.SmallComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.SolVeltLogic.MediumComponent</item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.SolVeltLogic.LargeComponent</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     <!-- Splash Screen Theme -->
     </style>
@@ -99,102 +98,83 @@
         <item name="postSplashScreenTheme">@style/Theme.SolVeltLogic</item>
         <item name="android:statusBarColor">@color/splash_background</item>
         <item name="android:navigationBarColor">@color/splash_background</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     <!-- Typography Styles -->
     </style>
     <style name="TextAppearance.SolVeltLogic.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
         <item name="fontFamily">@font/roboto_regular</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.DisplayMedium" parent="TextAppearance.Material3.DisplayMedium">
         <item name="fontFamily">@font/roboto_regular</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.DisplaySmall" parent="TextAppearance.Material3.DisplaySmall">
         <item name="fontFamily">@font/roboto_regular</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
         <item name="fontFamily">@font/roboto_medium</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
         <item name="fontFamily">@font/roboto_medium</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
         <item name="fontFamily">@font/roboto_medium</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
         <item name="fontFamily">@font/roboto_medium</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
         <item name="fontFamily">@font/roboto_medium</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
         <item name="fontFamily">@font/roboto_medium</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
         <item name="fontFamily">@font/roboto_regular</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
         <item name="fontFamily">@font/roboto_regular</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.BodySmall" parent="TextAppearance.Material3.BodySmall">
         <item name="fontFamily">@font/roboto_regular</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
         <item name="fontFamily">@font/roboto_medium</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
         <item name="fontFamily">@font/roboto_medium</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="TextAppearance.SolVeltLogic.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
         <item name="fontFamily">@font/roboto_medium</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     <!-- Shape Appearances -->
     </style>
     <style name="ShapeAppearance.SolVeltLogic.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">8dp</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="ShapeAppearance.SolVeltLogic.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">12dp</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="ShapeAppearance.SolVeltLogic.LargeComponent" parent="ShapeAppearance.Material3.LargeComponent">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">16dp</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     <!-- Custom Card Style -->
     </style>
@@ -202,7 +182,6 @@
         <item name="cardCornerRadius">16dp</item>
         <item name="cardElevation">2dp</item>
         <item name="contentPadding">16dp</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     <!-- Custom Button Styles -->
     </style>
@@ -212,18 +191,15 @@
         <item name="android:paddingBottom">12dp</item>
         <item name="android:paddingStart">24dp</item>
         <item name="android:paddingEnd">24dp</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="Widget.SolVeltLogic.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
         <item name="cornerRadius">12dp</item>
         <item name="strokeWidth">2dp</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     </style>
     <style name="Widget.SolVeltLogic.Button.Text" parent="Widget.Material3.Button.TextButton">
         <item name="cornerRadius">8dp</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     <!-- Custom Text Input Style -->
     </style>
@@ -233,19 +209,16 @@
         <item name="boxCornerRadiusBottomStart">12dp</item>
         <item name="boxCornerRadiusBottomEnd">12dp</item>
         <item name="boxStrokeWidth">2dp</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     <!-- Custom Chip Style -->
     </style>
     <style name="Widget.SolVeltLogic.Chip" parent="Widget.Material3.Chip.Assist">
         <item name="chipCornerRadius">8dp</item>
         <item name="chipStrokeWidth">1dp</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     
     <!-- Custom FAB Style -->
     </style>
     <style name="Widget.SolVeltLogic.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
         <item name="cornerSize">16dp</item>
-        <item name="colorSurfaceTint">@color/purple_500</item>
     </style>
 </resources>
