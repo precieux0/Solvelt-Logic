@@ -247,6 +247,5 @@
     <style name="Widget.SolVeltLogic.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
         <item name="cornerSize">16dp</item>
         <item name="colorSurfaceTint">@color/purple_500</item>
-</resources>
     </style>
 </resources>
