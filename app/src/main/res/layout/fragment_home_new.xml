@@ -313,6 +313,6 @@
         android:textSize="16sp"
         android:textColor="@color/on_primary"
         app:backgroundTint="@color/primary"
-        android:cornerRadius="12dp" />
+         />
 
 </LinearLayout>

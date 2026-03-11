@@ -109,7 +109,7 @@
             android:textSize="16sp"
             android:textColor="@color/on_primary"
             app:backgroundTint="@color/primary"
-            android:cornerRadius="12dp"
+            
             android:padding="16dp"
             android:layout_marginBottom="16dp" />
 
@@ -152,7 +152,7 @@
             android:textSize="14sp"
             android:textColor="@color/on_surface"
             app:backgroundTint="@color/surface_container"
-            android:cornerRadius="12dp"
+            
             android:padding="16dp"
             android:layout_marginBottom="16dp"
             app:icon="@drawable/ic_google"
