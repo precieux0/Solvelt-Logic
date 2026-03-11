@@ -38,6 +38,6 @@
         android:background="@color/surface"
         app:elevation="8dp"
         app:menu="@menu/menu_bottom_nav"
-        app:labelVisibilityMode="label_visibility_labeled" />
+        app:labelVisibilityMode="labeled" />
 
 </LinearLayout>
