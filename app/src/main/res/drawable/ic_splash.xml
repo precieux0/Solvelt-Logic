@@ -4,14 +4,35 @@
     android:height="288dp"
     android:viewportWidth="288"
     android:viewportHeight="288">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#6750A4"
+        android:pathData="M144,144m-120,0a120,120 0,1 1,240 0a120,120 0,1 1,-240 0" />
+
+    <!-- Ampoule -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M144,80L64,120l80,40 80,-40 -80,-40zM64,200l80,40 80,-40M64,160l80,40 80,-40"
-        android:strokeWidth="8"
-        android:strokeColor="#FFFFFF"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round" />
+        android:pathData="M144,80c-8,0 -16,4 -20,12l-8,16c-4,8 0,16 8,20l8,4c4,0 8,-4 8,-8l-4,-8c0,-4 4,-8 8,-8s8,4 8,8l-4,8c0,4 4,8 8,8l8,-4c8,-4 12,-12 8,-20l-8,-16c-4,-8 -12,-12 -20,-12z" />
+
+    <!-- Ampoule base -->
     <path
         android:fillColor="#FFFFFF"
-        android:pathData="M144,120m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0" />
+        android:pathData="M128,108l16,0l0,8l-16,0z" />
+
+    <!-- Letter S -->
+    <path
+        android:fillColor="#6750A4"
+        android:pathData="M200,160c0,-12 -8,-20 -20,-20l-16,0c-12,0 -20,8 -20,20l0,8c0,12 8,20 20,20l16,0c12,0 20,-8 20,-20l0,-8zM184,168l-8,0c-4,0 -8,-4 -8,-8l0,-4c0,-4 4,-8 8,-8l8,0c4,0 8,4 8,8l0,4c0,4 -4,8 -8,8z" />
+
+    <!-- Letter S curve -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M184,140c8,0 16,4 20,12l4,8c0,4 -4,8 -8,8l-12,0c-8,0 -16,-4 -20,-12l-4,-8c0,-4 4,-8 8,-8l12,0z" />
+
+    <!-- Letter S bottom -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M184,180c-8,0 -16,-4 -20,-12l-4,-8c0,-4 4,-8 8,-8l12,0c8,0 16,4 20,12l4,8c0,4 -4,8 -8,8l-12,0z" />
+
 </vector>
